@@ -1,1 +1,1 @@
-window.location.href = "https://haithem-ben.github.io/svgxss/index.svg";
+// window.location.replace("http://www.w3schools.com");
