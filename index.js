@@ -1,1 +1,1 @@
-window.location.replace("http://svgwithxssresponse.tk/index.svg");
+//   window.location.replace("http://svgwithxssresponse.tk/index.svg");
